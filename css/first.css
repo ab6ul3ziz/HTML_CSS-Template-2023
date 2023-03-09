@@ -13,7 +13,9 @@
 body {
     font-family: "work sans", "sans-serif";
 }
-
+html {
+    scroll-behavior: smooth;
+}
 .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -460,7 +462,7 @@ body {
 .contact .info a {
     display: inline-block;
     font-weight: 800;
-    font-size: 35px;
+    font-size: 25px;
     color: var(--main-color);
     text-decoration: none;
 }
